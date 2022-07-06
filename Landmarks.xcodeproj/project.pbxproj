@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB16119A2865F4D500E96DDA /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1611992865F4D500E96DDA /* HexagonParameters.swift */; };
+		DB16119C2875E30700E96DDA /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16119B2875E30700E96DDA /* BadgeBackground.swift */; };
 		DBA5801A2862038800A4DFAF /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA580192862038800A4DFAF /* LandmarksApp.swift */; };
 		DBA5801C2862038800A4DFAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5801B2862038800A4DFAF /* ContentView.swift */; };
 		DBA5801E2862038900A4DFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA5801D2862038900A4DFAF /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		DB1611992865F4D500E96DDA /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexagonParameters.swift; path = Landmarks/Landmarks/HexagonParameters.swift; sourceTree = SOURCE_ROOT; };
+		DB16119B2875E30700E96DDA /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		DBA580162862038800A4DFAF /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA580192862038800A4DFAF /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		DBA5801B2862038800A4DFAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				DB1611992865F4D500E96DDA /* HexagonParameters.swift */,
+				DB16119B2875E30700E96DDA /* BadgeBackground.swift */,
 				DBA5801B2862038800A4DFAF /* ContentView.swift */,
 			);
 			path = Views;
@@ -215,6 +218,7 @@
 				DB16119A2865F4D500E96DDA /* HexagonParameters.swift in Sources */,
 				DBA580372863AF8500A4DFAF /* LandmarkList.swift in Sources */,
 				DBA580392863B14100A4DFAF /* LandmarkDetail.swift in Sources */,
+				DB16119C2875E30700E96DDA /* BadgeBackground.swift in Sources */,
 				DBA5802828626FBD00A4DFAF /* CircleImage.swift in Sources */,
 				DBA5802E28638B5600A4DFAF /* Landmark.swift in Sources */,
 				DBA580352863AD8E00A4DFAF /* LandmarkRow.swift in Sources */,
