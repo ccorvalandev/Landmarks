@@ -38,6 +38,7 @@
 		DBA8EEA8287CD2A800AB3B52 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEA7287CD2A800AB3B52 /* ProfileHost.swift */; };
 		DBA8EEAA287CD34900AB3B52 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEA9287CD34900AB3B52 /* ProfileSummary.swift */; };
 		DBA8EEAC287CD93D00AB3B52 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEAB287CD93D00AB3B52 /* HikeBadge.swift */; };
+		DBA8EEAE287CDEBE00AB3B52 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEAD287CDEBE00AB3B52 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		DBA8EEA7287CD2A800AB3B52 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		DBA8EEA9287CD34900AB3B52 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		DBA8EEAB287CD93D00AB3B52 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HikeBadge.swift; path = Landmarks/Views/Profiles/HikeBadge.swift; sourceTree = SOURCE_ROOT; };
+		DBA8EEAD287CDEBE00AB3B52 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				DBA8EEA7287CD2A800AB3B52 /* ProfileHost.swift */,
+				DBA8EEAD287CDEBE00AB3B52 /* ProfileEditor.swift */,
 				DBA8EEA9287CD34900AB3B52 /* ProfileSummary.swift */,
 			);
 			path = Profiles;
@@ -310,6 +313,7 @@
 				DB993A9E28789E9D00DCCC02 /* Hike.swift in Sources */,
 				DB1611A0287637B300E96DDA /* RotatedBadgeSymbol.swift in Sources */,
 				DB16119E2876172100E96DDA /* BadgeSymbol.swift in Sources */,
+				DBA8EEAE287CDEBE00AB3B52 /* ProfileEditor.swift in Sources */,
 				DBA580372863AF8500A4DFAF /* LandmarkList.swift in Sources */,
 				DB993AA72878A0A200DCCC02 /* HikeView.swift in Sources */,
 				DBA580392863B14100A4DFAF /* LandmarkDetail.swift in Sources */,
