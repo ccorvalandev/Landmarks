@@ -42,6 +42,7 @@
 		DBA8EEB0287DB33800AB3B52 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEAF287DB33800AB3B52 /* PageViewController.swift */; };
 		DBA8EEB2287DB70C00AB3B52 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEB1287DB70C00AB3B52 /* FeatureCard.swift */; };
 		DBA8EEB4287DB95700AB3B52 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEB3287DB95700AB3B52 /* PageView.swift */; };
+		DBA8EEB6287F3EBF00AB3B52 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEB5287F3EBF00AB3B52 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		DBA8EEAF287DB33800AB3B52 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = Profiles/PageViewController.swift; sourceTree = "<group>"; };
 		DBA8EEB1287DB70C00AB3B52 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeatureCard.swift; path = Landmarks/Model/FeatureCard.swift; sourceTree = SOURCE_ROOT; };
 		DBA8EEB3287DB95700AB3B52 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		DBA8EEB5287F3EBF00AB3B52 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				DBA8EEB1287DB70C00AB3B52 /* FeatureCard.swift */,
 				DBA8EEB3287DB95700AB3B52 /* PageView.swift */,
 				DBA8EEAF287DB33800AB3B52 /* PageViewController.swift */,
+				DBA8EEB5287F3EBF00AB3B52 /* PageControl.swift */,
 				DBA8EEA6287CD28200AB3B52 /* Profiles */,
 				DB993AA8287A32BC00DCCC02 /* Categories */,
 				DB993A9F2878A0A200DCCC02 /* Hikes */,
@@ -314,6 +317,7 @@
 				DBA5802A2862719E00A4DFAF /* MapView.swift in Sources */,
 				DB993AA42878A0A200DCCC02 /* GraphCapsule.swift in Sources */,
 				DBA5801A2862038800A4DFAF /* LandmarksApp.swift in Sources */,
+				DBA8EEB6287F3EBF00AB3B52 /* PageControl.swift in Sources */,
 				DBA5803B2864E9DA00A4DFAF /* FavoriteButton.swift in Sources */,
 				DB993AAE287A397D00DCCC02 /* CategoryItem.swift in Sources */,
 				DB993AA62878A0A200DCCC02 /* HikeDetail.swift in Sources */,
