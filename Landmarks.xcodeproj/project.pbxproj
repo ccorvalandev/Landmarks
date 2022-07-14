@@ -64,6 +64,7 @@
 		DBA8EEEB28804AA600AB3B52 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB993A9B28789E2E00DCCC02 /* hikeData.json */; };
 		DBA8EEEC28804AA600AB3B52 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA580342863AD8E00A4DFAF /* LandmarkRow.swift */; };
 		DBA8EEED28804AA600AB3B52 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5802728626FBD00A4DFAF /* CircleImage.swift */; };
+		DBA8EEEF28808E2300AB3B52 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEEE28808E2300AB3B52 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +158,7 @@
 		DBA8EED32880490400AB3B52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBA8EED52880490400AB3B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBA8EED62880490400AB3B52 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DBA8EEEE28808E2300AB3B52 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkDetail.swift; path = WatchLandmarks/LandmarkDetail.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +333,7 @@
 		DBA8EEC52880490300AB3B52 /* WatchLandmarks WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DBA8EEEE28808E2300AB3B52 /* LandmarkDetail.swift */,
 				DBA8EEC82880490300AB3B52 /* ContentView.swift */,
 				DBA8EECA2880490300AB3B52 /* NotificationController.swift */,
 				DBA8EECC2880490300AB3B52 /* NotificationView.swift */,
@@ -526,6 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA8EEEF28808E2300AB3B52 /* LandmarkDetail.swift in Sources */,
 				DBA8EEE528804AA600AB3B52 /* Landmark.swift in Sources */,
 				DBA8EEE628804AA600AB3B52 /* Profile.swift in Sources */,
 				DBA8EEEC28804AA600AB3B52 /* LandmarkRow.swift in Sources */,
