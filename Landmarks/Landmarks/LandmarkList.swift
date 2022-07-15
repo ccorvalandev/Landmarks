@@ -30,6 +30,9 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
+            #if !os(watchOS)
+            .frame(minWidth: 300)
+            #endif
         }
     }
 }
