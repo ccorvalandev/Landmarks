@@ -81,6 +81,7 @@
 		DBA8EF0D288207BF00AB3B52 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5803A2864E9DA00A4DFAF /* FavoriteButton.swift */; };
 		DBA8EF0E288207BF00AB3B52 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA580292862719E00A4DFAF /* MapView.swift */; };
 		DBA8EF0F288207BF00AB3B52 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EEA4287CCFE500AB3B52 /* Profile.swift */; };
+		DBA8EF11288211B800AB3B52 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8EF10288211B800AB3B52 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +181,7 @@
 		DBA8EEFA2882066300AB3B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBA8EEFD2882066300AB3B52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBA8EEFF2882066300AB3B52 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		DBA8EF10288211B800AB3B52 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				DBA8EEF82882066200AB3B52 /* ContentView.swift */,
+				DBA8EF10288211B800AB3B52 /* LandmarkDetail.swift */,
 				DBA8EEFA2882066300AB3B52 /* Assets.xcassets */,
 				DBA8EEFF2882066300AB3B52 /* MacLandmarks.entitlements */,
 				DBA8EEFC2882066300AB3B52 /* Preview Content */,
@@ -636,6 +639,7 @@
 				DBA8EF08288207BF00AB3B52 /* LandmarksApp.swift in Sources */,
 				DBA8EF03288207BF00AB3B52 /* LandmarkRow.swift in Sources */,
 				DBA8EF0D288207BF00AB3B52 /* FavoriteButton.swift in Sources */,
+				DBA8EF11288211B800AB3B52 /* LandmarkDetail.swift in Sources */,
 				DBA8EF0B288207BF00AB3B52 /* Landmark.swift in Sources */,
 				DBA8EF0A288207BF00AB3B52 /* LandmarkList.swift in Sources */,
 				DBA8EF05288207BF00AB3B52 /* ModelData.swift in Sources */,
